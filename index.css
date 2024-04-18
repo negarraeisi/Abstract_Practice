@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+nav{ 
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    vertical-align:middle;
+    padding: 1rem;
+}
+
+nav div{
+    float: left;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-left: 3rem;
+    text-align: center;
+    vertical-align:middle;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover, a:active{
+    color: #dadbf1;
+
+}
+
+nav a h4{
+    display: inline-block;
+}
+.leftBtn{
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav .btns{
+    float: right;
+    vertical-align:middle;
+    margin-right: 3rem;
+}
+img {
+    padding-right: 0.15rem;
+    vertical-align:middle;
+}
+
+#helpCenter{
+    margin-left: 0.5rem;
+}
+
+#abstract{
+    margin-right: 0.45rem;
+    padding-right: 0.5rem;
+    border-right: #fff 2px solid;
+}
+
+#submitBtn{
+    background-color: #191A1B;
+    border: #fff solid 1px;
+}
+
+#signInBtn{
+    background-color: #4C5FD5;
+}
+
+#signInBtn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#submitBtn{
+    cursor: pointer;
+}
