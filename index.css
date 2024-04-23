@@ -7,6 +7,7 @@
     font-style: normal;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav{ 
@@ -88,4 +89,48 @@ img {
 
 #submitBtn{
     cursor: pointer;
+}
+
+form {
+    display:flex;
+    flex-direction:row;
+    border:1px solid grey;
+    padding:1px;
+    width: 25rem;
+    height: 2.5rem;
+    margin: auto auto;
+    margin-top: 1rem;
+    border: #000 1px solid;
+    border-radius: 3px;
+}
+
+#searchDiv{
+    text-align: center;
+    background-color: #dadbf1;
+    height: 16rem;
+    padding: 4rem;
+}
+  
+input {
+    flex-grow: 1;
+    border:none;
+    width: 3rem;
+    padding-left: 1rem;
+}
+  
+input:focus {
+    outline: none;
+}
+  
+form:focus-within { 
+    outline: 1px solid blue 
+}
+  
+#searchBtn {
+    background:#fff;
+    color: #000;
+    border: none;
+    width: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
