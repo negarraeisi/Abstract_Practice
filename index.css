@@ -197,3 +197,41 @@ form:focus-within {
     padding-bottom: 1rem;
     font-weight: bold;
 }
+
+footer{
+    height: 16rem;
+    background-color: #000;
+    color: #fff;
+    padding: 2.5rem;
+}
+
+#footerSection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin: auto auto;
+
+}
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+footer h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer a{
+    font-size: 1rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+#copyRight{
+    margin-top: 6rem;
+}
